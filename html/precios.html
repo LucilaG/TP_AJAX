@@ -1,0 +1,41 @@
+<head>
+  <title>Precios</title>
+</head>
+
+<body>
+  <h3>Nuestra Lista de precios</h3>
+  <div class="row">
+      <label for="input" class="col-2">Buscar por nombre:</label>
+      <input type="text" class="col-3 inputSearch" autocomplete="on">
+      <button class="btn btn-outline-secondary col-3 search">Buscar</button>
+  </div>
+  
+  <table class="table table-sm container[0]">
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Descripcion</th>
+        <th>Precio</th>
+        <th> </th>
+        <th> </th>
+      </tr>
+    </thead>
+    <tbody class="contenedorTabla">
+
+    </tbody>
+  </table>
+  <div class="observaciones">
+  </div>
+  <div class="container[0]-fluid">
+    <div class="row input-group">
+        <input type="text " placeholder="Producto " class="col-12 col-md-4 producto " >
+        <input type="text " placeholder="Descripcion " class="col-12 col-md-4 descripcion ">
+        <input type="number " placeholder="Precio " class="col-12 col-md-4 precio ">
+      </div>
+      <div class="row input-group ">
+        <button class="btn btn-outline-secondary col-12 col-md-6 col-lg-6 cargar ">Cargar</button>
+        <button class="btn btn-outline-secondary col-12 col-md-6 col-lg-6 cargarTresVeces ">Cargar Tres Veces</button>
+        <button class="btn btn-outline-secondary col-12 edit d-none ">Realizar cambios</button>
+      </div>
+    </div>
+</body>

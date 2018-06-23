@@ -1,0 +1,64 @@
+
+body {
+background: linear-gradient(#b1bf56, #F2FCFF);
+min-height: 100vh;
+}
+.nav-link{
+    background-color: rgb(139, 235, 182);
+    color: rgb(7, 7, 82);
+    text-decoration-line: none;
+    border:2px solid green;
+}
+.descripcionDas{
+  color: purple;
+}
+
+.carousel {
+  max-height: 30em !important;
+  max-width: 30em !important;
+  margin:auto !important;
+}
+
+@media only screen and (max-width: 480px) {
+  .logoDas{
+    width: 200px;
+  }
+}
+
+.logoDas{
+  height: 200px;
+}
+
+.logoFooter {
+  width: 1.5em;
+  height: 1.5em;
+  margin: 1.5em 1em 0em;
+  padding-bottom: 0em;
+}
+
+.nav :hover {
+  background: #491881;
+  color: #F2FCFF;
+}
+textarea{
+  height: 15em;
+}
+
+.oferta{
+  background-color: white !important;
+}
+.btnEditar, .btnEliminar{
+  background-color: white !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.btnEliminar{
+  background-image: url("../imagenes/eliminar.png") !important;
+}
+.btnEditar{
+    background-image: url("../imagenes/editar.png") !important;
+}
+.observaciones{
+  color:red;
+}
